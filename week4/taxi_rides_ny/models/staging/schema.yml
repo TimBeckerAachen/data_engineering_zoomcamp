@@ -10,8 +10,8 @@ sources:
       # loaded_at_field: record_loaded_at
       tables:
         - name: external_table_fhv_taxis_partitoned_clustered
-        - name: green_tripdata
-        - name: yellow_tripdata
+        - name: green_tripdata_manual
+        - name: yellow_tripdata_manual
          # freshness:
            # error_after: {count: 6, period: hour}
 
